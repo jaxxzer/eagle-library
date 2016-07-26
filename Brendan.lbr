@@ -1208,14 +1208,14 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <wire x1="-22.86" y1="-5.08" x2="22.86" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-5.08" x2="22.86" y2="5.08" width="0.254" layer="94"/>
 <wire x1="22.86" y1="5.08" x2="-22.86" y2="5.08" width="0.254" layer="94"/>
-<pin name="P$1" x="-17.78" y="10.16" length="middle" rot="R270"/>
-<pin name="P$2" x="-12.7" y="10.16" length="middle" rot="R270"/>
-<pin name="P$3" x="-7.62" y="10.16" length="middle" rot="R270"/>
-<pin name="P$4" x="-2.54" y="10.16" length="middle" rot="R270"/>
-<pin name="P$5" x="2.54" y="10.16" length="middle" rot="R270"/>
-<pin name="P$6" x="7.62" y="10.16" length="middle" rot="R270"/>
-<pin name="P$7" x="12.7" y="10.16" length="middle" rot="R270"/>
-<pin name="P$8" x="17.78" y="10.16" length="middle" rot="R270"/>
+<pin name="P$1" x="-17.78" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$2" x="-12.7" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$3" x="-7.62" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$4" x="-2.54" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$5" x="2.54" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$6" x="7.62" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$7" x="12.7" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$8" x="17.78" y="10.16" length="middle" swaplevel="1" rot="R270"/>
 <text x="-25.4" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 </symbol>
 <symbol name="6PIN-PLUG">
@@ -1223,28 +1223,28 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <wire x1="-17.78" y1="5.08" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-5.08" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="17.78" y1="5.08" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
-<pin name="P$1" x="-12.7" y="10.16" length="middle" rot="R270"/>
-<pin name="P$2" x="-7.62" y="10.16" length="middle" rot="R270"/>
-<pin name="P$3" x="-2.54" y="10.16" length="middle" rot="R270"/>
-<pin name="P$4" x="2.54" y="10.16" length="middle" rot="R270"/>
-<pin name="P$5" x="7.62" y="10.16" length="middle" rot="R270"/>
-<pin name="P$6" x="12.7" y="10.16" length="middle" rot="R270"/>
+<pin name="P$1" x="-12.7" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$2" x="-7.62" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$3" x="-2.54" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$4" x="2.54" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$5" x="7.62" y="10.16" length="middle" swaplevel="1" rot="R270"/>
+<pin name="P$6" x="12.7" y="10.16" length="middle" swaplevel="1" rot="R270"/>
 <text x="-20.32" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 </symbol>
 <symbol name="MAPLE-MINI">
-<pin name="8/PWM/AIN/RX2" x="-25.4" y="2.54" length="middle"/>
-<pin name="7/AIN/SS1" x="-25.4" y="7.62" length="middle"/>
-<pin name="6/AIN/SCK1" x="-25.4" y="12.7" length="middle"/>
-<pin name="5/PWM/AIN/MISO1" x="-25.4" y="17.78" length="middle"/>
-<pin name="4/PWM/AIN/MOSI1" x="-25.4" y="22.86" length="middle"/>
-<pin name="3/PWM/AIN" x="-25.4" y="27.94" length="middle"/>
+<pin name="8/PWM/AIN/RX2" x="-25.4" y="2.54" length="middle" swaplevel="1"/>
+<pin name="7/AIN/SS1" x="-25.4" y="7.62" length="middle" swaplevel="1"/>
+<pin name="6/AIN/SCK1" x="-25.4" y="12.7" length="middle" swaplevel="1"/>
+<pin name="5/PWM/AIN/MISO1" x="-25.4" y="17.78" length="middle" swaplevel="1"/>
+<pin name="4/PWM/AIN/MOSI1" x="-25.4" y="22.86" length="middle" swaplevel="1"/>
+<pin name="3/PWM/AIN" x="-25.4" y="27.94" length="middle" swaplevel="1"/>
 <pin name="2/BOOT1" x="-25.4" y="33.02" length="middle"/>
 <pin name="1/TX3/SCL2" x="-25.4" y="38.1" length="middle"/>
 <pin name="0/RX3/SDA2" x="-25.4" y="43.18" length="middle"/>
 <pin name="VIN/MAX15V" x="-25.4" y="48.26" length="middle"/>
-<pin name="9/PWM/AIN/TX2" x="-25.4" y="-2.54" length="middle"/>
-<pin name="10/PWM/AIN" x="-25.4" y="-7.62" length="middle"/>
-<pin name="11/PWM/AIN" x="-25.4" y="-12.7" length="middle"/>
+<pin name="9/PWM/AIN/TX2" x="-25.4" y="-2.54" length="middle" swaplevel="1"/>
+<pin name="10/PWM/AIN" x="-25.4" y="-7.62" length="middle" swaplevel="1"/>
+<pin name="11/PWM/AIN" x="-25.4" y="-12.7" length="middle" swaplevel="1"/>
 <pin name="RESET" x="-25.4" y="-17.78" length="middle"/>
 <pin name="12" x="-25.4" y="-22.86" length="middle"/>
 <pin name="13" x="-25.4" y="-27.94" length="middle"/>
@@ -1446,7 +1446,7 @@ It has reduced top mask to make it harder to put the component on the wrong side
 </deviceset>
 <deviceset name="8PIN-PLUG">
 <gates>
-<gate name="G$1" symbol="8PIN-PLUG" x="0" y="0"/>
+<gate name="G$1" symbol="8PIN-PLUG" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="8PIN-PLUG">
@@ -1468,7 +1468,7 @@ It has reduced top mask to make it harder to put the component on the wrong side
 </deviceset>
 <deviceset name="6PIN-PLUG">
 <gates>
-<gate name="G$1" symbol="6PIN-PLUG" x="0" y="0"/>
+<gate name="G$1" symbol="6PIN-PLUG" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="6PIN-PLUG">
@@ -1488,7 +1488,7 @@ It has reduced top mask to make it harder to put the component on the wrong side
 </deviceset>
 <deviceset name="MAPLE-MINI">
 <gates>
-<gate name="G$1" symbol="MAPLE-MINI" x="0" y="0"/>
+<gate name="G$1" symbol="MAPLE-MINI" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="MAPLE-MINI">
